@@ -9,7 +9,7 @@ vector < vector <string> > datos = {
 	{"otros datos 21", "otros datos 22"}
 }
 
-vector <string> nueva_tabla = tabular_datos(encabezados, datos);
+string nueva_tabla = tabular_datos(encabezados, datos);
 
 cout << endl << nueva_tabla << endl;
 ```
