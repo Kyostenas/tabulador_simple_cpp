@@ -1,4 +1,4 @@
-### USO
+# USO
 
 incluir archivos .cpp y .h en directorio raiz de proyecto
 
@@ -20,7 +20,7 @@ std::string nueva_tabla = tabular_datos(encabezados, datos);
 std::cout << std::endl << nueva_tabla << std::endl;
 ```
 
-## Resultado
+## RESULTADO
 
 ```
 >> ejemplo.exe
