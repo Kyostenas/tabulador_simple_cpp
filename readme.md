@@ -1,17 +1,23 @@
 ### USO
 
+incluir archivos .cpp y .h en directorio raiz de proyecto
+
 ```
-vector <string> encabezados = {
+#include <iostream>
+#include <vector>
+#include "tabular.h"
+
+vector <std::string> encabezados = {
 	"encabezado 1", "encabezado 2"
 };
-vector < vector <string> > datos = {
+vector < vector <std::string> > datos = {
 	{"datos 11",       "datos 12"      },
 	{"otros datos 21", "otros datos 22"}
 }
 
-string nueva_tabla = tabular_datos(encabezados, datos);
+std::string nueva_tabla = tabular_datos(encabezados, datos);
 
-cout << endl << nueva_tabla << endl;
+std::cout << std::endl << nueva_tabla << std::endl;
 ```
 
 ## Resultado
